@@ -48,6 +48,7 @@ export default function Cart() {
     Linking.openURL(`http://api.whatsapp.com/send?phone=${PHONE_NUMBER}&text=${message}`)
     cartStore.clear()
     goBack()
+    //expert
   }
 
   return (
